@@ -1,0 +1,27 @@
+{
+  "name": "express-cors",
+  "version": "1.0.0",
+  "description": "## trying out cors!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjb3/express-cors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjb3/express-cors/issues"
+  },
+  "homepage": "https://github.com/sjb3/express-cors#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "debug": "^2.6.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.2",
+    "morgan": "^1.8.1"
+  }
+}
