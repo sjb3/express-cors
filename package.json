@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "DEBUG='note*' node server.js",
-    "dbup": "mongod --dbpath=',/db'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "DEBUG='note*' ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -19,11 +18,17 @@
   },
   "homepage": "https://github.com/sjb3/express-cors#readme",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "body-parser": "^1.16.1",
     "cors": "^2.8.1",
     "debug": "^2.6.1",
     "express": "^4.14.1",
     "mongoose": "^4.8.2",
     "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "superagent": "^3.4.3"
   }
 }
